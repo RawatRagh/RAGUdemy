@@ -1,2 +1,7 @@
 Hello Raghvendra, How are you?
 what's up?
+
+Repo is created on github and already commit fist change
+then 
+git commit -m "new changes only"
+git push
