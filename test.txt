@@ -5,4 +5,5 @@ Repo is created on github and already commit fist change
 then 
 git commit -m "new changes only"
 git push
- 
+ Manually install NLTK package with downloader tar file
+uv pip install C:\AIPrograms\nltk_data\nltk-3.9.2.tar.gz --native-tls 
