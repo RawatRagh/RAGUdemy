@@ -1,0 +1,25 @@
+{
+  // Use the project's virtual environment created by the 'uv' manager
+  "python.defaultInterpreterPath": "C:\\AIPrograms\\RAGUdemy\\.venv\\Scripts\\python.exe",
+  // Compatibility key for older extension versions (VS Code may ignore if deprecated)
+  "python.pythonPath": "C:\\AIPrograms\\RAGUdemy\\.venv\\Scripts\\python.exe",
+
+  // Help Pylance resolve local imports (add any folders that contain project modules)
+  "python.analysis.extraPaths": [
+    "${workspaceFolder}",
+    "${workspaceFolder}/0-DataIngestParsing"
+  ],
+
+  // Use Pylance as the language server (standard for modern Python extension)
+  "python.languageServer": "Pylance",
+
+  // Improve responsiveness for large envs / heavy indexing
+  "python.analysis.indexing": true,
+  "python.analysis.typeCheckingMode": "basic",
+  // Let Pylance use library code for type information when stubs are missing
+  "python.analysis.useLibraryCodeForTypes": true,
+  // Automatically add site-packages etc. to analysis paths
+  "python.analysis.autoSearchPaths": true,
+  // Increase package index depth for better package detection (default is 1)
+  "python.analysis.packageIndexDepth": 3
+}
