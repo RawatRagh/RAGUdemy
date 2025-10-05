@@ -13,3 +13,4 @@ pdfminer
 python-dotenv
 python-docx
 docx2txt
+nltk
